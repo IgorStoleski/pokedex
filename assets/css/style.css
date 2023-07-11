@@ -225,7 +225,12 @@ header{
     justify-content: space-around;
     align-items: center;
 }
- 
+
+.statsNav a{
+    text-decoration: none;
+    color: black;
+}
+
 .infoTable{
     display: flex;    
     align-items: center;
