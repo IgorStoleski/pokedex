@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokedex</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" type="image/png" href="./img/pokeball.png">
   </head>
   <body onload="init()">
     <header>
@@ -16,15 +17,16 @@
         </div>
       </div>
     </header>
-    <div id="loader" w3-include-html="./templates/loader.html"></div>
+    <div id="loader" w3-include-html="./templates/loader.html"></div>    
+    <div id="pokemonCard" class="pokedex-bg d-none"></div>
+    <div id="pokemonCardSearch" class="pokedex-bg d-none"></div>
+
+    <div id="smallPokemonList" class="mt-32"></div>
     <div class="load" id="loadMoreBtnContainer">
       <button class="loadBtn d-none" id="loadMoreBtn" onclick="loadMorePokemon()">
         Weitere Pokemon laden
       </button>
     </div>
-    <div id="pokemonCard" class="pokedex-bg d-none"></div>
-
-    <div id="smallPokemonList" class="mt-32"></div>
 
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/loader.js"></script>

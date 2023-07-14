@@ -65,9 +65,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 16px;
-    position: fixed;
-    bottom: 32px;
+    margin: 32px 0;   
     cursor: pointer;    
     z-index: 50;
     background-color: #4C79BC;
@@ -89,7 +87,7 @@ header{
     z-index: 100;
 }
 
-#pokedex{
+#pokedex, #pokedexSearch{
     height: 450px;
     width: 250px;    
     display: flex;
@@ -100,7 +98,7 @@ header{
     border-radius: 10px;
 }
 
-#pokedex h1{
+#pokedex h1, #pokedexSearch h1{
     margin: 0;
 }
 
@@ -141,7 +139,7 @@ header{
     align-items: center;
 }
 
-#pokemonImg{
+#pokemonImg, #pokemonImgSearch{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,7 +195,7 @@ header{
     display: flex;
     align-items: center;
 }
-#type1, #type2, #smallIdType1, #smallIdType2{
+#type1, #type2, #smallIdType1, #smallIdType2, #searchType1, #searchType2{
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.1);
